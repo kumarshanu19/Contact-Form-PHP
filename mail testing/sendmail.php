@@ -17,7 +17,7 @@
         $mail->SMTPAuth = true;
         $mail->Port = 587;
         $mail->Username = "ghartak.delivery@gmail.com"; // Your Email ID
-        $mail->Password = "ghar#tak@ghartak"; // Password of your email id
+        $mail->Password = ""; // Password of your email id
           
         $mail->From = "designergallery.bpl@gmail.com";
         $mail->FromName = "WebsApex Team";
