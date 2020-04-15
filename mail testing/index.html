@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="mb-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <!--Grid column-->
+            <div class="col-md-8 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="sendmail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Your name</label>
+                                <input type="text" id="name" name="name" class="form-control"
+                                    placeholder="Enter Your Name">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Your email</label>
+                                <input type="text" id="email" name="email" class="form-control" placeholder="Email ID">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <label for="subject" class="">Mobile</label>
+                                <input name="mobile" id="mobile" class="form-control" required="required" type="text"
+                                    placeholder="Enter Mobile No" />
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <label for="message">Your message</label>
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    placeholder="Enter Any Message" class="form-control md-textarea"></textarea>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+
+
+                    <div class="text-center text-md-center">
+                        <input class="btn btn-primary my-4 " name="submit" type="submit" value="Send a Mail" />
+                    </div>
+                    <div class="status"></div>
+                </form>
+            </div>
+            <!--Grid column-->
+
+            <div class="col-md-2"></div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
